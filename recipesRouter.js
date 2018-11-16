@@ -1,10 +1,11 @@
+'use strict';
 const express = require("express");
 const router = express.Router();
 
 const { Recipes } = require("./models");
 
 // we're going to add some recipes to Recipes
-// so there's some data to look at
+// so there's s'boiled white rice'
 Recipes.create("boiled white rice", [
   "1 cup white rice",
   "2 cups water",
